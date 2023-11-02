@@ -5,3 +5,8 @@ body {
     font-family: mono;
     text-align: center;
   }
+
+img{
+    display: block;
+    margin: auto;
+}

@@ -1,18 +1,48 @@
 body {
-    background: black;
-    color: whitesmoke;
-    padding: 25px;
-    font-family: monospace;
-    text-align: center;
-    line-height: 30px;
-  }
-
-img{
-    display: block;
-    margin: auto;
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  text-align: center;
+  line-height: 30px;
 }
 
-ul{
-  list-style-type: none;
-  margin: 50px;
+footer{
+  background-color: aliceblue;
+}
+
+.page {
+  background-image: url("C:\Users\anava\Pictures\Saved Pictures\jay-mantri-TFyi0QOx08c-unsplash.jpg");
+  background-color: aliceblue;
+  background-size: cover;
+}
+
+h1{
+  font-size: 40px;
+}
+
+h2{
+  font-size: 35px;
+}
+
+p{
+  font-size: 20px;
+}
+
+.subpages {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.subpagelink{
+  color:rgb(61, 104, 70);
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.subpagelink:hover{
+  color:rgb(122, 175, 133);
+  font-size: 38px;
 }

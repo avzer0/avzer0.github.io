@@ -6,14 +6,17 @@ body {
   line-height: 30px;
 }
 
+
 footer {
   background-color: aliceblue;
 }
 
 .page {
-  background-image: url("again.png");
-  background-color: aliceblue;
+  background-image: url('again.png');
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
+  background-color: aliceblue;
 }
 
 h1 {

@@ -1,3 +1,11 @@
+/*Everything on the page*/
+
+*{
+  font-family: monospace;
+  text-align: center;
+  letter-spacing: 0.0625rem;
+}
+  
 body {
   margin: 0;
 
@@ -8,24 +16,24 @@ body {
   background-attachment: fixed;
   
   background-color: rgb(28, 29, 30);
-
-  font-family: monospace;
-  text-align: center;
-  letter-spacing: 1px;
 }
 
+/*Page name + title*/
+
 h1 {
-  font-size: 50px;
-  line-height: 125px;
+  font-size: 3.125rem;
+  line-height: 5rem;
 }
 
 h2 {
-  font-size: 35px;
-  line-height: 100px;
+  font-size: 2.1875rem;
+  line-height: 3.75rem;
 }
 
+/*At the end of the page*/
+
 .atthebottom {
-  font-size: 15px;
+  font-size: 0.9375rem;
   
   color:rgb(225, 230, 226);
   display: inline;
@@ -37,30 +45,35 @@ h2 {
   left: 33%;
 }
 
+/*Nav options*/
+
 .subpages {
   align-items: center;
+  
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: space-around;
-  line-height: 50px;
+
+  line-height: 2.7rem;
 }
 
 .subpagelink {
   color:rgb(225, 230, 226);
   background-color: rgba(0,0,0,.5);
   
-  height: 60px;
-  width: 250px;
+  height: 3.125rem;
+  width: 15.625rem;
 
-  border-radius: 10px;
-  margin: 20px;
+  border-radius: 0.625rem;
+  margin: 1.25rem;
 
-  font-size: 25px;
+  font-size: 1.5625rem;
+  
   text-decoration: none;
 }
 
 .subpagelink:hover {
   color:rgb(122, 175, 133);
-  font-size: 30px;
+  font-size: 1.875rem;
 }

@@ -4,6 +4,11 @@ body {
   font-family: monospace;
   text-align: center;
   line-height: 30px;
+  background-image: url(thisone.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: aliceblue;
 }
 
 
@@ -11,13 +16,6 @@ footer {
   background-color: aliceblue;
 }
 
-.page {
-  background-image: url(thisone.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-color: aliceblue;
-}
 
 h1 {
   font-size: 40px;
